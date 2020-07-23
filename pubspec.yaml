@@ -8,7 +8,10 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  keyboard_visibility: ^0.5.6
+  #keyboard_visibility: ^0.5.6
+  keyboard_visibility: 
+    git:
+      url: https://github.com/ExzaSolutions/flutter_keyboard_visibility.git      
   flutter:
     sdk: flutter
 
